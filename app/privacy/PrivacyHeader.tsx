@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Header() {
+export default function PrivacyHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-[74px] max-w-[1380px] items-center justify-between px-6 sm:px-8">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Footer() {
+export default function PrivacyFooter() {
   return (
     <footer className="border-t border-zinc-800 bg-[#090909] px-6 py-12 text-white sm:px-8">
       <div className="mx-auto max-w-[1180px]">

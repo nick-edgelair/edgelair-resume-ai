@@ -8,17 +8,17 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import WhyAIResume from "@/components/WhyAIResume";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#080808]">
       <Header />
       <Hero />
-      <Stats />
-      <Features />
       <HowItWorks />
+      <WhyAIResume />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <FAQ />
       <CTA />
       <Footer />
